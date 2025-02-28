@@ -17,7 +17,6 @@ function atualizarLink(inputId, linkId) {
     link.href = input.value;
   });
 }
-
 // Atualiza o texto dos spans
 atualizarTexto("nome", "nomeSpan");
 atualizarTexto("cargo", "cargoSpan");
@@ -73,7 +72,7 @@ function newFunction() {
     // Executar o comando de cópia
     try {
       document.execCommand('copy');
-      alert('Assinatura copiada para a área de transferência!');
+      alert('Assinatura copiada, Cole no seu email.');
     } catch (err) {
       console.error('Erro ao copiar assinatura:', err);
       alert('Erro ao copiar a assinatura.');
