@@ -83,4 +83,5 @@ function newFunction() {
     document.body.removeChild(tempDiv);
   });
 }
+// ultima atualização 10/09/2021
 
